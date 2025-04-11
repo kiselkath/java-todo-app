@@ -5,10 +5,10 @@ public class Task {
     private boolean isDone;
     private String priority;
 
-    public Task(String title) {
+    public Task(String title, String priority) {
         this.title = title;
-        this.isDone = false;
         this.priority = priority;
+        this.isDone = false;
     }
 
     public String getTitle() {
